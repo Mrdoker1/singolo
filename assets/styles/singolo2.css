@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+
+.wrapper{
+    max-width: 1020px;
+    margin: 0 auto;
+    height: 100vh;
+    line-height: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*Sections*/
+
+#portfolio{
+    padding: 66px 0px 46px 40px;
+    background: #2D303A;
+    border-bottom: 6px solid #323746!important;
+}
+
+#about-us{
+    padding: 68px 0px 50px 40px;
+    background: #F2F2F2;
+    border-bottom: 6px solid white!important;
+}
+
+.text{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.22px;
+    margin: 0px;
+    padding-right: 18px;
+    padding-bottom: 0px;
+    padding-top: 2px;
+    /* or 167% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #767E9E;
+}
+
+
+.benefit-text{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -0.06px;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    margin: 0px;
+    text-align: justify;
+    white-space: pre-line;
+    color: #767E9E;
+}
+
+h2{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 29.6188px;
+    line-height: 18px;
+    /* or 60% */
+    padding-top: 0px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    
+    color: #666D89;
+}
+
+h4{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17.7713px;
+    color: #666D89;
+    padding: 0px;
+    margin: 0px;
+}
+
+.button {
+    background-color: transparent;
+    color: #767E9E;
+    border: 1px solid #666D89;
+    border-radius: 4px;
+    margin: 0px 6.4px 0px 0px;
+    padding: 3px 6px 3px 6px!important;
+    font-size: 12px;
+  }
+
+.active, .button:hover {
+      border: 1px solid #c5c5c5;
+      color: #c5c5c5;
+}
+
+
+.portfolio-select {
+    padding-top: 11px;
+    padding-bottom: 20px;
+}
+
+.portfolio-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    /*margin: 0px 10px 10px 0px; */
+    padding: 0px 20px 16px 0px;
+}
+
+.workers{
+    display: flex;
+    max-width: 302px;
+    padding-top: 45px;
+}
+
+.worker{
+    flex: 1 0 21%; /* explanation below */
+    padding: 0px 20px 16px 0px;
+}
+
+#portfolio-img{
+    padding-bottom: 13px;
+}
+
+.social{
+    padding-top: 22px;
+}
+
+#social-icon{
+    padding-right: 5px;
+}
