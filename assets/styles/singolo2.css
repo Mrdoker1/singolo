@@ -140,5 +140,12 @@ h4{
 }
 
 #social-icon{
-    padding-right: 5px;
+    margin-right: 5px;
+}
+
+#social-icon:hover{
+    background-color: rgb(225, 231, 255);
+    cursor: pointer;
+    background-blend-mode: soft-light;
+    border-radius: 50%;
 }
